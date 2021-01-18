@@ -4,4 +4,4 @@ title: "TEST JEKYLL"
 permalink: /test/
 ---
 
-# Hello
+# Hello {{ page.tile }}
