@@ -5,4 +5,6 @@ permalink: /test/
 subtitle1: this is my subtitle
 ---
 
-Hello {{ page.title }}
+<h1>{{ page.title }}</h1>
+
+Hello this is some text
