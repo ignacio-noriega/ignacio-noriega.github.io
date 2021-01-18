@@ -5,4 +5,4 @@ permalink: /test/
 subtitle1: this is my subtitle
 ---
 
-Hello {{ page.tile }}
+Hello {{ page.title }}
