@@ -1,5 +1,5 @@
 ---
-layout: portfolio-detail
+layout: portfolio-details
 title: hello world
 category: piano
 link: #
