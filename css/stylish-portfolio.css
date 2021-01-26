@@ -12,7 +12,13 @@ html {
 
 body {
   font-family: 'Source Sans Pro';
+  color: #df00ff;
 }
+
+.myclass {
+  background-color: #ffffff5e;
+}
+
 
 .btn-xl {
   padding: 1.25rem 2.5rem;
