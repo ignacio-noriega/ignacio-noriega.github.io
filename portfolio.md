@@ -1,7 +1,7 @@
 ---
 layout: portfolio-details
 permalink: /portfolio/
-title: codeklavier
+title: portfolio
 category: piano
 link: #
 ---
