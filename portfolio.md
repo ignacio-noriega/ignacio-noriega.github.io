@@ -1,9 +1,16 @@
 ---
 layout: portfolio-details
-permalink: /portfolio/ck/
+permalink: /portfolio/
 title: codeklavier
 category: piano
 link: #
 ---
 
-This project is about piano and coding.
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      {{ post.content }}
+    </li>
+  {% endfor %}
+</ul>
