@@ -141,7 +141,9 @@ title: jekyll test
       <ul>
       {% for post in site.posts %}
         <li>
-          <a href="{{ post.url }}">{{ post.title }}</a>
+          <h3>{{ post.title }}</h3>
+          <p>{{ post.venue }}</p>
+          <p>{{ post.price }}</p>
           {{ post.content }}
         </li>
       {% endfor %}
