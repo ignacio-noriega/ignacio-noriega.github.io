@@ -1,5 +1,6 @@
 ---
 title: test title
+variable1: hello
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -8,7 +9,7 @@ title: test title
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>{{ page.title }}</title>
+  <title>{{ page.variable1 }}</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -253,6 +254,14 @@ title: test title
           <li>concert 1</li>
           <li>concert 2</li>
           </ul>
+
+          <ul>
+          {% for post in site.posts %}
+            <li>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+          {% endfor %}
+         </ul>
 
         </div>
 
