@@ -135,10 +135,19 @@ title: jekyll test
   <!-- Callout -->
   <section class="callout">
     <div class="container text-center">
-      <h2 class="mx-auto mb-5">Welcome to
-        <em>your</em>
-        next website!</h2>
-      <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/theme/stylish-portfolio/">Download Now!</a>
+
+
+      <!-- Jekyll posts -->
+      <ul>
+      {% for post in site.posts %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+          {{ post.content }}
+        </li>
+      {% endfor %}
+      </ul>
+
+
     </div>
   </section>
 
